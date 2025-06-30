@@ -1,0 +1,42 @@
+[
+  {
+    "name": "WePE",
+    "desc": "Windows 系统安装工具",
+    "url": "https://www.wepe.com.cn/download.html"
+  },
+  {
+    "name": "Ventoy",
+    "desc": "U盘启动工具，支持多种系统",
+    "url": "https://www.ventoy.net/cn/download.html"
+  },
+  {
+    "name": "VSCode",
+    "desc": "微软出品的代码编辑器",
+    "url": "https://code.visualstudio.com/Download"
+  },
+  {
+    "name": "Postman",
+    "desc": "API 调试与测试工具",
+    "url": "https://www.postman.com/downloads/"
+  },
+  {
+    "name": "Keil",
+    "desc": "嵌入式集成开发环境，arm、8051等",
+    "url": "https://www.keil.com/download/product/"
+  },
+  {
+    "name": "STM32CubeProgrammer",
+    "desc": "STM32 烧录工具",
+    "url": "https://www.st.com/en/development-tools/stm32cubeprog.html"
+  },
+  {
+    "name": "STM32CubeMX",
+    "desc": "STM32 代码生成工具",
+    "url": "https://www.st.com/en/development-tools/stm32cubemx.html"
+  },
+  {
+    "name": "STM32CubeIDE",
+    "desc": "STM32 集成开发环境",
+    "url": "https://www.st.com/en/development-tools/stm32cubeide.html"
+  }
+]

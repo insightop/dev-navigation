@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>开发者工具下载导航</title>
+</head>
+
+<body>
+    <h1>常用开发者工具下载</h1>
+    <table border="1" id="tools-table">
+        <thead>
+            <tr>
+                <th>工具名称</th>
+                <th>描述</th>
+                <th>下载链接</th>
+            </tr>
+        </thead>
+        <tbody id="tools-tbody"></tbody>
+    </table>
+    <script>
+        fetch('tools.json')
+            .then(response => response.json())
+            .then(data => {
+                const tbody = document.getElementById('tools-tbody');
+                data.forEach(tool => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${tool.name}</td>
+                        <td>${tool.desc}</td>
+                        <td><a href="${tool.url}" target="_blank">下载</a></td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            })
+            .catch(err => {
+                document.getElementById('tools-tbody').innerHTML = '<tr><td colspan="3">加载工具列表失败</td></tr>';
+            });
+    </script>
+</body>
+
+</html>
