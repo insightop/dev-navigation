@@ -43,5 +43,10 @@
     "name": "Arduino IDE",
     "desc": "Arduino 集成开发环境",
     "url": "https://www.arduino.cc/en/software"
+  },
+  {
+    "name": "STM32 ST-Link Utility",
+    "desc": "ST-Link 烧录工具",
+    "url": "https://www.st.com/en/development-tools/stsw-link004.html"
   }
 ]
