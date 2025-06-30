@@ -38,5 +38,10 @@
     "name": "STM32CubeIDE",
     "desc": "STM32 集成开发环境",
     "url": "https://www.st.com/en/development-tools/stm32cubeide.html"
+  },
+  {
+    "name": "Arduino IDE",
+    "desc": "Arduino 集成开发环境",
+    "url": "https://www.arduino.cc/en/software"
   }
 ]
