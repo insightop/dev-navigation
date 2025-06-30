@@ -4,6 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <title>开发者工具下载导航</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+            background: #f6f8fa;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+            color: #222;
+            letter-spacing: 2px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 40px auto 0 auto;
+            background: #fff;
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+            border-radius: 10px;
+            overflow: hidden;
+            min-width: 700px;
+        }
+
+        th,
+        td {
+            padding: 16px 24px;
+            text-align: left;
+        }
+
+        th {
+            background: #24292f;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        tr:nth-child(even) {
+            background: #f2f4f8;
+        }
+
+        tr:hover {
+            background: #e6f7ff;
+            transition: background 0.2s;
+        }
+
+        a {
+            color: #0070f3;
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+
+        @media (max-width: 800px) {
+
+            table,
+            th,
+            td {
+                min-width: unset;
+                font-size: 14px;
+                padding: 10px;
+            }
+
+            table {
+                width: 98vw;
+            }
+        }
+    </style>
 </head>
 
 <body>
