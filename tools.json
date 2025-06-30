@@ -48,5 +48,20 @@
     "name": "STM32 ST-Link Utility",
     "desc": "ST-Link 烧录工具",
     "url": "https://www.st.com/en/development-tools/stsw-link004.html"
+  },
+  {
+    "name": "CH340驱动程序",
+    "desc": "WCH的USB转串口芯片",
+    "url": "https://www.wch.cn/products/ch340.html"
+  },
+  {
+    "name": "CP2102驱动程序",
+    "desc": "Silicon Labs的USB转串口芯片",
+    "url": "https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads"
+  },
+  {
+    "name": "FT232驱动程序",
+    "desc": "FTDI的USB转串口芯片",
+    "url": "https://ftdichip.com/drivers/vcp-drivers/"
   }
 ]
