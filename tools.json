@@ -23,6 +23,11 @@
     "name": "Keil",
     "desc": "嵌入式集成开发环境，arm、8051等",
     "url": "https://www.keil.com/download/product/"
+  },  
+  {
+    "name": "STM32.Download",
+    "desc": "STM32 Web 下载工具(UART,USB,STLINK)",
+    "url": "https://stm32.download"
   },
   {
     "name": "STM32CubeProgrammer",
