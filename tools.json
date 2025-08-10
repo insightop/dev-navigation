@@ -68,5 +68,10 @@
     "name": "FT232驱动程序",
     "desc": "FTDI的USB转串口芯片",
     "url": "https://ftdichip.com/drivers/vcp-drivers/"
+  },
+  {
+    "name": "ESP Download tool",
+    "desc": "Espressif 产品的烧录工具",
+    "url": "https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html"
   }
 ]
